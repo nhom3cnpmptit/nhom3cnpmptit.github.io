@@ -1,0 +1,67 @@
+
+.main{
+    display: flex;
+    justify-content: space-around;
+
+    box
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7f6c86;
+   
+}
+
+body{
+    background-color: #dfd3c3b9;
+    
+}
+.header{
+    font-size: 50px;
+    text-align: center;
+    background-color: #D0B8A8;
+    border-radius: 12px;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    
+    
+}   
+.personal{
+    background-color: #DFD3C3;
+    border-radius: 12px;
+}
+
+.contact{
+    background-color: #DFD3C3;
+    border-radius: 12px;    
+
+}
+
+.social{
+    display: flex;
+    background-color: #DFD3C3;
+    justify-content: space-evenly;
+}
+.portrait{
+    background-color: #D0B8A8;
+    border-radius: 12px;
+    font-size: 30px;
+}
+.pic{
+    width: 60px;
+    height: auto;
+    padding-top: 30px;
+    
+}
+img{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7f6c86; 
+    
+
+    width: 600px;
+    height: auto;
+}
