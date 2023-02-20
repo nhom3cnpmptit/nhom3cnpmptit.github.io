@@ -1,0 +1,147 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #15273a;    
+    display: flex;
+    flex-flow: wrap;
+    justify-content:center;
+    align-items: center;
+
+    
+}
+
+.main{
+
+    position: relative;
+
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 150px;
+
+
+    background-color: #142850;
+    color: white;         /* font color */
+    
+    margin: 55px 300px 35px 300px;
+    padding: 50px;
+
+    min-width: 500px;
+    min-height: auto;
+    overflow: hidden;
+
+    
+}
+
+
+.main::before{
+    content: '';
+    position:absolute;    
+    margin: 250px ;                    
+    width: 3000px;     
+    height: 30%;
+    background: linear-gradient(#45f3ff, #e91135);
+    animation: animate 4s linear infinite;
+    
+}
+
+
+.main::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #0e1538;
+    border-radius: 16px;
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+    
+}
+
+.header{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #27496D;    
+    
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #0C7B93; 
+    padding: 10px;
+    min-width: 450px;
+    z-index: 10;
+
+}   
+
+.personal, .contact{ 
+    padding: 5px;
+}
+
+.contact h1{
+ max-width: 320px;
+ margin-left: 60px;
+
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+}
+
+.pic{
+    width: 60px;
+    height: auto;
+    transition: transform 0.3s ease ;
+}
+
+.pic:hover{
+ transform: translateY(-10px);
+} 
+
+.portrait{
+    display: flex ;
+    flex-direction: column;
+    flex-basis: 50px;
+    justify-content:center;
+    align-items: center; 
+    background-color: #0C7B93;
+    padding: 10px;
+    min-width: 450px;
+    z-index: 1;
+
+}
+
+.picture{
+    width: 400px;
+    height: auto;
+}
+
+.intro{
+    margin: 30px;
+    text-align:justify;
+    font-size: 22px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #27496D;
+}
