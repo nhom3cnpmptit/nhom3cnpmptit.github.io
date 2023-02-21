@@ -5,7 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PhamVanHung</title>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <style>
+                *{
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .wrapper{
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+            background-color: aliceblue;
+        }
+
+        .header{
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            background-color: rgba(37, 132, 67, 0.645);
+        }
+        .header>h1{
+            font-size: 25px;
+            color: aliceblue;
+        }
+
+        .wrapper2{
+            width: 90%;
+            height: 80%;
+            position: relative;
+            top: 66px;
+            left: 5%;
+            background-color: white;
+        }
+        #profile{
+            width: 100%;
+            height: 340px;
+            /* background-color: rgb(72, 127, 176); */
+        }
+        #profile>img{
+            position: relative;
+            top: 10px;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+        }
+        #profile>h1{
+            font-size: 25px;
+        }
+        #profile>p{
+            font-size: 18px;
+            color: gray;
+        }
+
+        #contact{
+            width: 95%;
+            height: 220px;
+            position: relative;
+            left: 2.5%;
+            top:10px;
+            border-radius: 10px;
+            background-color: aliceblue;
+        }
+        #contact>h1{
+            font-size: 25px;
+            text-align: justify;
+            position: absolute;
+            left: 20px;
+        }
+        #contact>p{
+            margin-top: 35px;  
+            font-size: 25px;
+            text-align: justify;
+            position: absolute;
+            left: 20px;
+            
+        }
+        #hihi{
+            float: left;
+        }
+
+        #contact>a>img{
+            float: left;
+            width: 25px;
+            height: 25px;
+            border-radius: 4px;
+        }
+        #face{
+            position: absolute;
+            left: 15%;
+        }
+        #ins{
+            position: absolute;
+            left: 18%;
+        }
+        #tiktok{
+            position: absolute;
+            left: 21%;
+        }
+
+
+
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -14,7 +119,7 @@
         </div>
         <div class="wrapper2">
             <div id="profile">
-                <img src="../image/anh.jpg" alt="">
+                <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-9/330865211_1402944767128049_1547598431077869187_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=k1KOEgaHLSwAX8uVlEs&tn=PLGRa1OjKvuf3bSD&_nc_ht=scontent.fhan2-5.fna&oh=03_AdSMkWuSz_zzfKWwO-PHn0qaRD6ymHQWMP8mlcjgDaIETg&oe=641BB92E" alt="">
                 <h1>Phạm Văn Hưng</h1>
                 <p> My name is Hung. Currently I am studying at PTIT.  And as you see, this is the result of my homework this time </p>
             </div>
@@ -24,8 +129,8 @@
                 <p>Phone: 0787-453-082</p><br><br>
                 <p>Location: Mo Lao, Ha Dong, Ha Noi</p><br><br>
                 <p id="hihi">Social network: </p><br><br>
-                <a href="https://www.facebook.com/profile.php?id=100013542127754&mibextid=LQQJ4d"><img id="face" src="../image/Facebook.png" alt=""></a>
-                <a href="https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.instagram.com%2Fhngp_3802%3Ffbclid%3DIwAR37iq74oP1VaurguhiK-gukx1DaxoQIMDJFuJyDEjlkXWfbhcIS2m1xMDs&h=AT1HthiVkxGkI6RvYwpZonBxKN_bGz8y7NWI1V5EdFiO068VTgX7MPAOyH71OjDvMzcTAH0pTSmT2rgTjSJ0frR8nEO2fmZoFPAh6QP4sgBSS4v3u348qSadVucXXo61P3_VgA"><img id="ins" src="../image/instagram.jpg" alt=""></a>
+                <a href="https://www.facebook.com/profile.php?id=100013542127754&mibextid=LQQJ4d"><img id="face" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt=""></a>
+                <a href="https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.instagram.com%2Fhngp_3802%3Ffbclid%3DIwAR37iq74oP1VaurguhiK-gukx1DaxoQIMDJFuJyDEjlkXWfbhcIS2m1xMDs&h=AT1HthiVkxGkI6RvYwpZonBxKN_bGz8y7NWI1V5EdFiO068VTgX7MPAOyH71OjDvMzcTAH0pTSmT2rgTjSJ0frR8nEO2fmZoFPAh6QP4sgBSS4v3u348qSadVucXXo61P3_VgA"><img id="ins" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt=""></a>
                 <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40hng0238%3F_t%3D8a0UnOUlRj8%26_r%3D1%26fbclid%3DIwAR31YMuiRjXC05pNP7hF3m1ntCyx3BUICXCLVpW-QWAkUMkrOAFwUOqlCNM&h=AT1HthiVkxGkI6RvYwpZonBxKN_bGz8y7NWI1V5EdFiO068VTgX7MPAOyH71OjDvMzcTAH0pTSmT2rgTjSJ0frR8nEO2fmZoFPAh6QP4sgBSS4v3u348qSadVucXXo61P3_VgA"><img id="tiktok" src="../image/3938074.png" alt=""></a>
             </div>
         </div>
