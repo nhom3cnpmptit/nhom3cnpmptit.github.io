@@ -1,0 +1,64 @@
+
+body {
+    font-family: sans-serif;
+  }
+  
+  header, footer {
+    background-color: #42b6d6;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1, footer p {
+    margin: 0;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    float: left;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li::before {
+    content: "•";
+    margin-right: 5px;
+  }
+  
+  li:last-child {
+    margin-bottom: 10px;
+  }
+
+  #avatar:hover {
+    content: url("https://scontent.fhan5-2.fna.fbcdn.net/v/t1.6435-9/132843993_2578272332464627_2823801817314937919_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=lvdL5gvGcvwAX888jOM&tn=WX_R4HovGiy9lw3l&_nc_ht=scontent.fhan5-2.fna&oh=00_AfAdHuKTQIhntoZrNnNNACr_CI0UPXfLtr7JigjGcM6NLA&oe=6419BAF1");
+  }
+  .profile-container {
+    border: 1px solid #ccc; /* đường viền bao quanh */
+    border-radius: 5px; /* bo góc khung */
+    padding: 20px; /* khoảng cách giữa nội dung và đường viền */
+    background-color: #f5f5f5; /* màu nền khung */
+  }
+  
+  
+  
