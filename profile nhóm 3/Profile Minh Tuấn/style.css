@@ -1,0 +1,105 @@
+.root{
+    --bg1 :#9b59b6;
+    --bg2 :#3498db;
+    --bg :#D7E1EC;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: linear-gradient(purple, pink);
+    transition: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+.container:hover {
+    width: 350px;
+    height: 550px;
+    border-radius: 10px;
+    background-image: linear-gradient(purple, pink);
+}
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container img.active {
+    width: 350px;
+    height: 550px;
+    margin: 0;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+
+.container h2 {
+    color: #ffffff;
+}
+.container p {
+    color: #ffffff;
+    margin: 0 30px 12px;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 12px;
+}
+.btn-container button {
+    height: 35px;
+    width: 150px;
+    border: none;
+    margin-right: 12px;
+    border-radius: 5px;
+    columns: #333333;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+.btn-container button:hover {
+    transform: scale(0.95);
+
+} 
+.icon-social {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-60px);
+    opacity: 0;
+    transition: 0.5;
+    top: 12px;
+}
+.container:hover .icon-social{
+    transform: translateX(0);
+    opacity: 1;
+}
+.icon-social i {
+    padding: 12px;
+    color: black;
+    background: #FFF;
+    border-radius: 50%;
+    margin: 5px 0 0 12px;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+
+.icon-social i:hover{
+    transform: scale(0.95);
+}

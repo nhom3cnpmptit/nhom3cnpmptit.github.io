@@ -1,0 +1,219 @@
+figure.snip0045 {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 480px;
+  max-width: 600px;
+  width: 100%;
+  background-color: #FFF;
+  background-image: url(https://thietbiketnoi.com/wp-content/uploads/2020/01/tong-hop-hinh-nen-background-vector-designer-dep-do-phan-giai-fhd-2k-4k-moi-nhat-5-1024x697.jpg);
+  color: #000000;
+}
+figure.snip0045 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip0045 > img {
+  width: 50%;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+  position: relative;
+  left: -15%;
+  z-index: 1;
+}
+figure.snip0045 figcaption {
+  padding: 50px 30px 20px 20px;
+  position: absolute;
+  right: 0;
+  width: 80%;
+}
+figure.snip0045 figcaption h2,
+figure.snip0045 figcaption p {
+  margin: 0;
+  text-align: right;
+  padding: 10px 0;
+  width: 100%;
+}
+figure.snip0045 figcaption h2 {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+figure.snip0045 figcaption h2 span {
+  font-weight: 800;
+}
+figure.snip0045 figcaption p {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+figure.snip0045 figcaption .icons {
+  width: 100%;
+  text-align:right ;
+}
+figure.snip0045 figcaption .icons i {
+  font-size: 26px;
+  padding: 5px;
+  top: 50%;
+  color: #000000;
+}
+figure.snip0045 figcaption a {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip0045 figcaption a:hover {
+  opacity: 0.8;
+}
+figure.snip0045 .position {
+  width: 100%;
+  text-align: center;
+  padding: 15px 30px;
+  font-size: 0.9em;
+  opacity: 1;
+  font-style: italic;
+  color: #ffffff;
+  background: #000000;
+}
+figure.snip0045.blue .position {
+  background: #20638f;
+}
+figure.snip0045.red .position {
+  background: #3498db;
+}
+figure.snip0045.yellow .position {
+  background: #bf6516;
+}
+figure.snip0045.green .position {
+  background: #1e8449;
+}
+figure.snip0045:hover > img,
+figure.snip0045.hover > img {
+  left: -12%;
+}
+
+
+/* ICON Từng thành viên */
+html {
+  height: 100%;
+}
+body {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+}
+.root{
+    --bg1 :#9b59b6;
+    --bg2 :#3498db;
+    --bg :#D7E1EC;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(#206cd0, rgb(27, 96, 164));
+    transition: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+.container:hover {
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    background-image: linear-gradient(#206cd0, rgb(27, 96, 164));
+}
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container img:hover {
+    width: 350px;
+    height: 450px;
+    margin: 0;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+
+.container h2 {
+    color: #ffffff;
+}
+.container p {
+    color: #ffffff;
+    margin: 0 30px 12px;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 12px;
+}
+.btn-container button {
+    height: 35px;
+    width: 150px;
+    border: none;
+    margin-right: 12px;
+    border-radius: 5px;
+    columns: #333333;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+.btn-container button:hover {
+    transform: scale(0.95);
+
+} 
+.icon-social {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-60px);
+    opacity: 0;
+    transition: 0.5;
+    top: 12px;
+}
+.container:hover .icon-social{
+    transform: translateX(0);
+    opacity: 1;
+}
+.icon-social i {
+    padding: 12px;
+    color: black;
+    background: #FFF;
+    border-radius: 50%;
+    margin: 5px 0 0 12px;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+
+.icon-social i:hover{
+    transform: scale(0.95);
+}
