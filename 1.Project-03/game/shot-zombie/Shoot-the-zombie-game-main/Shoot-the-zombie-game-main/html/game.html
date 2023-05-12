@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Zombie Game</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="../javascript/app.js"></script>
+
+</head>
+<body onresize="ajustarTamanhoTela()">
+
+	<div class="board">
+		<div class="lives">
+			<img id="life1" src="../images/full_heart.png">
+			<img id="life2" src="../images/full_heart.png">
+			<img id="life3" src="../images/full_heart.png">
+		</div>
+		<div class="chronometer">Time : <span id="chronometer">10</span> </div>
+	</div>
+
+	<script>
+
+		document.getElementById('chronometer').innerHTML = time
+
+		var createZombie = setInterval(function(){
+			randomPosition()
+		}, createtime)
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿h1
+{
+    display: block;
+    color: #06C3AB;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+.fcover, .bcover {
+    height: 9.5in;
+}
+a:link, a:visited
+{
+    color: #06C3AB;
+}
+h1, h2, h3 {
+    text-shadow: none;
+}
+
+.main-wrap {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.content-wrap {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+p {
+    font-size: 12px;
+}

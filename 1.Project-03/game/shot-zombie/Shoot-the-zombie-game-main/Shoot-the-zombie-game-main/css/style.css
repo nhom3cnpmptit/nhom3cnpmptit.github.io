@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	cursor: crosshair;
+}
+
+.zombie1{
+	width: 100px;
+	height: 100px;
+}
+
+.zombie2{
+	width: 150px;
+	height: 150px;
+}
+
+.zombie3{
+	width: 200px;
+	height: 200px;
+}
+
+.side-a{
+	transform: scaleX(1);
+}
+
+.side-b{
+	transform: scaleX(-1);
+}
+
+body{
+	background-image: url(../images/bg-apocalypse.jpg);
+	position: relative; 
+	height: 100%; 
+	opacity: 0.9;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.board{
+	padding: 20px 20px;
+	bottom: 0;
+	opacity: 0.9;
+	left: 0;
+}
+
+.lives{
+	float: left;
+}
+
+@font-face{
+	font-family: "Honey";
+	src: url("../font/bunny-honey.woff");
+}
+
+#chronometer, .chronometer{
+	font-size: 20px;
+	font-family: Honey;
+	font-weight: bold;
+	color: #fff;
+}
+
+.chronometer{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+@font-face{
+	font-family: "Pixel";
+	src: url("../font/pixeled.woff");
+}
+
+button.defeat, button.victory, button.start{
+	font-family: Pixel;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Zombie Game</title>
+
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+	<script>
+		
+		function startGame(){
+			var level = document.getElementById('level').value
+
+			if (level === ''){
+				alert('Choose a difficulty')
+			 	return false 
+			}
+
+			window.location.href = 'game.html?' + level
+
+		}
+
+	</script>
+
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="d-flex justify-content-center align-middle">
+					<img src="../images/game.png" class="img-fluid" style="margin: 50px 0;">
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<div class="d-flex justify-content-center align-middle">
+					<div class="mb-3">
+						<select class="form-control" id="level">
+							<option value="">-- Choose a level --</option>
+							<option value="normal">Normal</option>
+							<option value="hard">Hard</option>
+							<option value="expert">Expert</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<div class="d-flex justify-content-center">
+					<button onclick="startGame()" type="button" class="btn btn-light btn-lg p-4 mt-2 start">START
+					</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	
+</body>
+</html>

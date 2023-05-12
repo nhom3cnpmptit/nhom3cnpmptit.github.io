@@ -1,0 +1,15 @@
+Xin chào, cảm ơn vì đã mua hàng!
+
+
+Sự khác biệt giữa các trò chơi trong hai thư mục:
+
+1. origin:
+* Trong thư mục gốc, trò chơi trong phiên bản gốc.
+
+2. Modified:
+* Trong thư mục Modified có  trò chơi giống nhau nhưng không có liên kết không cần thiết,
+ không có nút, "Trò chơi khác" và đăng lại lên mạng xã hội "Facebook",
+ "Twitter". Tất cả các trò chơi được định cấu hình trên "Quy mô hộp thư" - chế độ xem khung nội tuyến.
+ Các trò chơi từ thư mục này rất lý tưởng để cài đặt trên trang web!
+ 
+ Nếu các bạn quan tâm đến nhiều trò chơi với giá rẻ hơn ,hay tham khảo gói bundle của tôi nhé,mua nhiều game mà giá  rẻ hơn.

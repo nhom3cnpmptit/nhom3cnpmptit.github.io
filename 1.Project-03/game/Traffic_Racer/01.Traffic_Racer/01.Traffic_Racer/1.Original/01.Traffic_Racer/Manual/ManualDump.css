@@ -1,0 +1,71 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;    
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    display:block;
+    margin:0 auto;    
+}
+p {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+p img {
+    max-width: 1100px;
+    margin-top: 30px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+}
+.main-wrap {
+    width: 1121px;
+    margin: 0 auto;
+    background: url('http://www.scirra.com/images/fresh/bg-texture-01.jpg');
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #666;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);  
+}
+h2,h3 {
+    page-break-after: avoid;
+}
+h1 
+{
+    page-break-before: always;
+    font-family: 'Sansita One', cursive;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.1);
+    color: #06C3AB;
+    font-size: 58px;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-family: 'Sansita One', 'Arial', cursive;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.1);
+    color: #555555;
+    font-size: 30px;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    font-weight: lighter;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 28px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.content-wrap {
+    padding: 120px;
+    box-shadow: inset 0px -25px 100px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0px -25px 100px rgba(0, 0, 0, 0.25);
+}
+.bcover {
+    page-break-before: always;
+}
