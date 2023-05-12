@@ -1,0 +1,6 @@
+node_modules
+views
+.env
+package.json
+package-lock.json
+server1.js
